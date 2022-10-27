@@ -80,9 +80,11 @@ footer {
 	.grid{
 		display: grid;
 		grid-template-columns: auto auto;
-		column-gap: 20px;
+		grid-gap: 20px;
 	}
     .aside{
+		display: grid;
+		grid-template-columns: auto;
 		grid-column: 1 / span 2;
 	}
     
