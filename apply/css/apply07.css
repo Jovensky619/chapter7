@@ -82,7 +82,7 @@ footer {
 		grid-template-columns: auto auto;
 		grid-gap: 20px;
 	}
-    .aside{
+    aside{
 		display: grid;
 		grid-template-columns: auto;
 		grid-column: 1 / span 2;
@@ -92,14 +92,14 @@ footer {
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1024px), print {
-	.grid{
+	grid{
 		display:grid;
-		grid-template-columns: auto auto auto auto;
+		grid-template-columns: auto;
 	}
-	.aside{
+	aside{
 		display:grid;
 		grid-template-rows: 1 / span 4;
-		
+	.	
 	}
 
     
